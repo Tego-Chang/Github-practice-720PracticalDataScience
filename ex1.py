@@ -13,7 +13,7 @@ df_plotted.head()
         # log-scale the x-axis
         scale_y_log10() +
         # change labels
-        labs(title="mortality against GDP per capita",
+        labs(title="Mortality against GDP per capita",
              x="Mortality rate, infant (per 1,000 live births)",
              y="GDP per capita (constant 2010 US$)")
 )
